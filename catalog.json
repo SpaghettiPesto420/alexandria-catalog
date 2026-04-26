@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "pmtiles": [
+    {
+      "id": "europe",
+      "name": "Europe",
+      "description": "Full offline map of Europe — roads, buildings, POIs. Update URL from protomaps.com/downloads",
+      "url": "https://build.protomaps.com/20241201.pmtiles",
+      "size_bytes": 28000000000,
+      "filename": "europe.pmtiles"
+    }
+  ],
+  "zims": [
+    {
+      "id": "wikimed-en",
+      "name": "WikiMed — Medical Wikipedia",
+      "description": "Offline medical encyclopedia. Essential for first aid and emergencies.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikimed/",
+      "filename_prefix": "wikimed_en_all_nopic_",
+      "filename_dest": "wikimed_en.zim"
+    },
+    {
+      "id": "wikipedia-en-medicine",
+      "name": "Wikipedia — Medicine",
+      "description": "Wikipedia's complete medicine and health articles — diagnosis, drugs, procedures.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikipedia/",
+      "filename_prefix": "wikipedia_en_medicine_nopic_",
+      "filename_dest": "wikipedia_en_medicine.zim"
+    },
+    {
+      "id": "zimgit-medicine",
+      "name": "Zimgit — Medicine Guide",
+      "description": "Compact offline medical guide covering diagnosis and treatment for emergencies.",
+      "kiwix_dir": "https://download.kiwix.org/zim/other/",
+      "filename_prefix": "zimgit-medicine_en_",
+      "filename_dest": "zimgit_medicine_en.zim"
+    },
+    {
+      "id": "zimgit-post-disaster",
+      "name": "Zimgit — Post-Disaster Survival",
+      "description": "Essential survival knowledge for post-disaster scenarios — shelter, water, food, first aid.",
+      "kiwix_dir": "https://download.kiwix.org/zim/other/",
+      "filename_prefix": "zimgit-post-disaster_en_",
+      "filename_dest": "zimgit_post_disaster_en.zim"
+    },
+    {
+      "id": "zimgit-water",
+      "name": "Zimgit — Water",
+      "description": "Offline guide to water sourcing, purification and storage.",
+      "kiwix_dir": "https://download.kiwix.org/zim/other/",
+      "filename_prefix": "zimgit-water_en_",
+      "filename_dest": "zimgit_water_en.zim"
+    },
+    {
+      "id": "zimgit-food-preparation",
+      "name": "Zimgit — Food Preparation",
+      "description": "Offline guide to food preservation, preparation and storage.",
+      "kiwix_dir": "https://download.kiwix.org/zim/other/",
+      "filename_prefix": "zimgit-food-preparation_en_",
+      "filename_dest": "zimgit_food_preparation_en.zim"
+    },
+    {
+      "id": "zimgit-knots",
+      "name": "Zimgit — Knots",
+      "description": "Visual guide to knots and lashings — essential field skill.",
+      "kiwix_dir": "https://download.kiwix.org/zim/other/",
+      "filename_prefix": "zimgit-knots_en_",
+      "filename_dest": "zimgit_knots_en.zim"
+    },
+    {
+      "id": "medicalsciences-se",
+      "name": "Medical Sciences (Stack Exchange)",
+      "description": "Q&A on medical science topics — pharmacology, physiology, clinical practice.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "medicalsciences.stackexchange.com_en_all_",
+      "filename_dest": "medicalsciences_se.zim"
+    },
+    {
+      "id": "wikihow-en",
+      "name": "WikiHow — Practical Skills",
+      "description": "How-to guides covering survival, first aid, navigation and more.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikihow/",
+      "filename_prefix": "wikihow_en_all_nopic_",
+      "filename_dest": "wikihow_en.zim"
+    },
+    {
+      "id": "ifixit-en",
+      "name": "iFixit — Repair Guides",
+      "description": "Step-by-step repair guides for electronics, appliances and tools. Images included.",
+      "kiwix_dir": "https://download.kiwix.org/zim/ifixit/",
+      "filename_prefix": "ifixit_en_all_",
+      "filename_dest": "ifixit_en.zim"
+    },
+    {
+      "id": "appropedia-en",
+      "name": "Appropedia — Appropriate Technology",
+      "description": "Practical guides for sustainable living, appropriate tech, permaculture and development.",
+      "kiwix_dir": "https://download.kiwix.org/zim/other/",
+      "filename_prefix": "appropedia_en_all_maxi_",
+      "filename_dest": "appropedia_en.zim"
+    },
+    {
+      "id": "mdwiki-en",
+      "name": "MDWiki — Medical Reference",
+      "description": "Offline medical wiki with clinical guidelines, pharmacology and treatment protocols.",
+      "kiwix_dir": "https://download.kiwix.org/zim/other/",
+      "filename_prefix": "mdwiki_en_all_",
+      "filename_dest": "mdwiki_en.zim"
+    },
+    {
+      "id": "diy-se",
+      "name": "DIY (Stack Exchange)",
+      "description": "Home improvement and repair Q&A — plumbing, electrical, construction.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "diy.stackexchange.com_en_all_",
+      "filename_dest": "diy_se.zim"
+    },
+    {
+      "id": "mechanics-se",
+      "name": "Mechanics (Stack Exchange)",
+      "description": "Vehicle repair and maintenance Q&A — cars, motorcycles, engines.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "mechanics.stackexchange.com_en_all_",
+      "filename_dest": "mechanics_se.zim"
+    },
+    {
+      "id": "electronics-se",
+      "name": "Electronics (Stack Exchange)",
+      "description": "Electronics design and repair Q&A — circuits, components, troubleshooting.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "electronics.stackexchange.com_en_all_",
+      "filename_dest": "electronics_se.zim"
+    },
+    {
+      "id": "engineering-se",
+      "name": "Engineering (Stack Exchange)",
+      "description": "Mechanical, civil and chemical engineering Q&A.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "engineering.stackexchange.com_en_all_",
+      "filename_dest": "engineering_se.zim"
+    },
+    {
+      "id": "woodworking-se",
+      "name": "Woodworking (Stack Exchange)",
+      "description": "Woodworking techniques, tools and joinery Q&A.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "woodworking.stackexchange.com_en_all_",
+      "filename_dest": "woodworking_se.zim"
+    },
+    {
+      "id": "outdoors-se",
+      "name": "Outdoors (Stack Exchange)",
+      "description": "Wilderness survival, hiking, camping and navigation Q&A.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "outdoors.stackexchange.com_en_all_",
+      "filename_dest": "outdoors_se.zim"
+    },
+    {
+      "id": "gardening-se",
+      "name": "Gardening (Stack Exchange)",
+      "description": "Growing food, plant care and pest control Q&A.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "gardening.stackexchange.com_en_all_",
+      "filename_dest": "gardening_se.zim"
+    },
+    {
+      "id": "sustainability-se",
+      "name": "Sustainability (Stack Exchange)",
+      "description": "Sustainable living, energy, water and resource Q&A.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "sustainability.stackexchange.com_en_all_",
+      "filename_dest": "sustainability_se.zim"
+    },
+    {
+      "id": "cooking-se",
+      "name": "Cooking (Stack Exchange)",
+      "description": "Food preparation and preservation Q&A — techniques, ingredients, storage.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "cooking.stackexchange.com_en_all_",
+      "filename_dest": "cooking_se.zim"
+    },
+    {
+      "id": "homebrew-se",
+      "name": "Homebrew (Stack Exchange)",
+      "description": "Home fermentation, brewing beer, wine and other beverages.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "homebrew.stackexchange.com_en_all_",
+      "filename_dest": "homebrew_se.zim"
+    },
+    {
+      "id": "ham-se",
+      "name": "Amateur Radio (Stack Exchange)",
+      "description": "Ham radio operation and emergency communications Q&A.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "ham.stackexchange.com_en_all_",
+      "filename_dest": "ham_se.zim"
+    },
+    {
+      "id": "fitness-se",
+      "name": "Fitness (Stack Exchange)",
+      "description": "Physical training, health and injury recovery Q&A.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "fitness.stackexchange.com_en_all_",
+      "filename_dest": "fitness_se.zim"
+    },
+    {
+      "id": "bicycles-se",
+      "name": "Bicycles (Stack Exchange)",
+      "description": "Bicycle repair, maintenance and riding Q&A.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "bicycles.stackexchange.com_en_all_",
+      "filename_dest": "bicycles_se.zim"
+    },
+    {
+      "id": "lifehacks-se",
+      "name": "Lifehacks (Stack Exchange)",
+      "description": "Practical improvisation tips for everyday problem-solving.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "lifehacks.stackexchange.com_en_all_",
+      "filename_dest": "lifehacks_se.zim"
+    },
+    {
+      "id": "crafts-se",
+      "name": "Crafts (Stack Exchange)",
+      "description": "Textile, paper and material crafts Q&A — sewing, knitting, leatherwork.",
+      "kiwix_dir": "https://download.kiwix.org/zim/stack_exchange/",
+      "filename_prefix": "crafts.stackexchange.com_en_all_",
+      "filename_dest": "crafts_se.zim"
+    },
+    {
+      "id": "wikivoyage-en-europe",
+      "name": "Wikivoyage — Europe",
+      "description": "Illustrated travel guides for every European country, city and region.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikivoyage/",
+      "filename_prefix": "wikivoyage_en_europe_maxi_",
+      "filename_dest": "wikivoyage_en_europe.zim"
+    },
+    {
+      "id": "wikivoyage-en-all",
+      "name": "Wikivoyage — World",
+      "description": "Illustrated travel guides for the entire world — destinations, transport, maps.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikivoyage/",
+      "filename_prefix": "wikivoyage_en_all_maxi_",
+      "filename_dest": "wikivoyage_en_world.zim"
+    },
+    {
+      "id": "wikibooks-en",
+      "name": "Wikibooks — Free Textbooks",
+      "description": "Open-content textbooks on cooking, farming, first aid, engineering and more. Images included.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikibooks/",
+      "filename_prefix": "wikibooks_en_all_maxi_",
+      "filename_dest": "wikibooks_en.zim"
+    },
+    {
+      "id": "wikiversity-en",
+      "name": "Wikiversity — Courses",
+      "description": "Free learning resources and courses across sciences, engineering and humanities.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikiversity/",
+      "filename_prefix": "wikiversity_en_all_nopic_",
+      "filename_dest": "wikiversity_en.zim"
+    },
+    {
+      "id": "wikispecies-en",
+      "name": "Wikispecies",
+      "description": "Taxonomy of all known species — useful for foraging and identification.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikispecies/",
+      "filename_prefix": "wikispecies_en_all_nopic_",
+      "filename_dest": "wikispecies_en.zim"
+    },
+    {
+      "id": "wikipedia-en-mini",
+      "name": "Wikipedia English (mini, no images)",
+      "description": "Broad offline reference — most Wikipedia articles, no images. ~7 GB.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikipedia/",
+      "filename_prefix": "wikipedia_en_all_mini_",
+      "filename_dest": "wikipedia_en_mini.zim"
+    },
+    {
+      "id": "wikipedia-en-all",
+      "name": "Wikipedia English (full, no images)",
+      "description": "Complete English Wikipedia without images — every article. ~22 GB.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikipedia/",
+      "filename_prefix": "wikipedia_en_all_nopic_",
+      "filename_dest": "wikipedia_en_all.zim"
+    },
+    {
+      "id": "gutenberg-en",
+      "name": "Project Gutenberg — Books (English)",
+      "description": "Over 60,000 free English ebooks including classics, reference works and historical texts.",
+      "kiwix_dir": "https://download.kiwix.org/zim/gutenberg/",
+      "filename_prefix": "gutenberg_en_all_",
+      "filename_dest": "gutenberg_en.zim"
+    },
+    {
+      "id": "wikipedia-de",
+      "name": "Wikipedia Deutsch (vollständig)",
+      "description": "Vollständige deutsche Wikipedia mit Bildern. ~20 GB.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikipedia/",
+      "filename_prefix": "wikipedia_de_all_maxi_",
+      "filename_dest": "wikipedia_de.zim"
+    },
+    {
+      "id": "wikivoyage-de",
+      "name": "Wikivoyage Deutsch",
+      "description": "Illustrierte Reiseführer für alle Länder und Regionen weltweit auf Deutsch.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikivoyage/",
+      "filename_prefix": "wikivoyage_de_all_maxi_",
+      "filename_dest": "wikivoyage_de.zim"
+    },
+    {
+      "id": "wikibooks-de",
+      "name": "Wikibooks Deutsch — Lehrbücher",
+      "description": "Freie deutschsprachige Lehrbücher zu Technik, Naturwissenschaften, Handwerk und mehr.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikibooks/",
+      "filename_prefix": "wikibooks_de_all_maxi_",
+      "filename_dest": "wikibooks_de.zim"
+    },
+    {
+      "id": "wikiversity-de",
+      "name": "Wikiversity Deutsch — Kurse",
+      "description": "Freie deutschsprachige Lernmaterialien und Kurse.",
+      "kiwix_dir": "https://download.kiwix.org/zim/wikiversity/",
+      "filename_prefix": "wikiversity_de_all_maxi_",
+      "filename_dest": "wikiversity_de.zim"
+    },
+    {
+      "id": "gutenberg-de",
+      "name": "Project Gutenberg — Bücher (Deutsch)",
+      "description": "Tausende freie deutschsprachige E-Books — Klassiker, Sachbücher und Nachschlagewerke.",
+      "kiwix_dir": "https://download.kiwix.org/zim/gutenberg/",
+      "filename_prefix": "gutenberg_de_all_",
+      "filename_dest": "gutenberg_de.zim"
+    }
+  ]
+}
