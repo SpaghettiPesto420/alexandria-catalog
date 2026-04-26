@@ -8,7 +8,8 @@
       "description": "Complete English Wikipedia without images — every article.",
       "url": "https://download.kiwix.org/zim/wikipedia/wikipedia_en_all_nopic_2026-03.zim",
       "size_bytes": 48400000000,
-      "filename": "wikipedia_en.zim"
+      "filename": "wikipedia_en.zim",
+      "filename_prefix": "wikipedia_en_all_"
     },
     {
       "id": "mdwiki-en",
@@ -16,7 +17,8 @@
       "description": "Offline medical wiki with clinical guidelines, pharmacology and treatment protocols.",
       "url": "https://download.kiwix.org/zim/other/mdwiki_en_all_2025-11.zim",
       "size_bytes": 10000000000,
-      "filename": "mdwiki_en.zim"
+      "filename": "mdwiki_en.zim",
+      "filename_prefix": "mdwiki_en_all_"
     },
     {
       "id": "wikibooks-en",
@@ -24,7 +26,8 @@
       "description": "Open-content textbooks on cooking, farming, first aid, engineering and more.",
       "url": "https://download.kiwix.org/zim/wikibooks/wikibooks_en_all_maxi_2026-01.zim",
       "size_bytes": 5100000000,
-      "filename": "wikibooks_en.zim"
+      "filename": "wikibooks_en.zim",
+      "filename_prefix": "wikibooks_en_all_"
     },
     {
       "id": "wikiversity-en",
@@ -32,7 +35,8 @@
       "description": "Free learning resources and courses across sciences, engineering and humanities.",
       "url": "https://download.kiwix.org/zim/wikiversity/wikiversity_en_all_maxi_2026-02.zim",
       "size_bytes": 2200000000,
-      "filename": "wikiversity_en.zim"
+      "filename": "wikiversity_en.zim",
+      "filename_prefix": "wikiversity_en_all_"
     },
     {
       "id": "gutenberg-en-q",
@@ -40,7 +44,8 @@
       "description": "Classic books and references in science, technology and natural history (LCC Q).",
       "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-q_2026-03.zim",
       "size_bytes": 16500000000,
-      "filename": "gutenberg_en_q.zim"
+      "filename": "gutenberg_en_q.zim",
+      "filename_prefix": "gutenberg_en_lcc-q_"
     },
     {
       "id": "gutenberg-en-t",
@@ -48,7 +53,8 @@
       "description": "Classic books and references in technology, engineering and applied sciences (LCC T).",
       "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-t_2026-03.zim",
       "size_bytes": 12300000000,
-      "filename": "gutenberg_en_t.zim"
+      "filename": "gutenberg_en_t.zim",
+      "filename_prefix": "gutenberg_en_lcc-t_"
     },
     {
       "id": "ifixit-en",
@@ -56,15 +62,53 @@
       "description": "Step-by-step repair guides for electronics, appliances and tools.",
       "url": "https://download.kiwix.org/zim/ifixit/ifixit_en_all_2025-12.zim",
       "size_bytes": 3300000000,
-      "filename": "ifixit_en.zim"
+      "filename": "ifixit_en.zim",
+      "filename_prefix": "ifixit_en_all_"
     },
     {
       "id": "appropedia-en",
       "name": "Appropedia — Appropriate Technology (EN)",
       "description": "Practical guides for sustainable living, appropriate tech, permaculture and development.",
-      "url": "https://download.kiwix.org/zim/other/appropedia_en_all_maxi_2025-11.zim",
+      "url": "https://download.kiwix.org/zim/other/appropedia_en_all_maxi_2026-02.zim",
       "size_bytes": 1000000000,
-      "filename": "appropedia_en.zim"
+      "filename": "appropedia_en.zim",
+      "filename_prefix": "appropedia_en_all_"
+    },
+    {
+      "id": "zimgit-medicine",
+      "name": "Zimgit — Medicine Guide (EN)",
+      "description": "Compact offline medical guide covering diagnosis and treatment for emergencies.",
+      "url": "https://download.kiwix.org/zim/other/zimgit-medicine_en_2024-08.zim",
+      "size_bytes": 50000000,
+      "filename": "zimgit_medicine_en.zim",
+      "filename_prefix": "zimgit-medicine_en_"
+    },
+    {
+      "id": "zimgit-post-disaster",
+      "name": "Zimgit — Post-Disaster Survival (EN)",
+      "description": "Essential survival knowledge for post-disaster scenarios — shelter, water, food, first aid.",
+      "url": "https://download.kiwix.org/zim/other/zimgit-post-disaster_en_2024-05.zim",
+      "size_bytes": 50000000,
+      "filename": "zimgit_post_disaster_en.zim",
+      "filename_prefix": "zimgit-post-disaster_en_"
+    },
+    {
+      "id": "zimgit-water",
+      "name": "Zimgit — Water (EN)",
+      "description": "Offline guide to water sourcing, purification and storage.",
+      "url": "https://download.kiwix.org/zim/other/zimgit-water_en_2024-08.zim",
+      "size_bytes": 50000000,
+      "filename": "zimgit_water_en.zim",
+      "filename_prefix": "zimgit-water_en_"
+    },
+    {
+      "id": "zimgit-food-preparation",
+      "name": "Zimgit — Food Preparation (EN)",
+      "description": "Offline guide to food preservation, preparation and storage.",
+      "url": "https://download.kiwix.org/zim/other/zimgit-food-preparation_en_2025-04.zim",
+      "size_bytes": 50000000,
+      "filename": "zimgit_food_preparation_en.zim",
+      "filename_prefix": "zimgit-food-preparation_en_"
     },
     {
       "id": "wikipedia-de",
@@ -72,7 +116,8 @@
       "description": "Vollständige deutsche Wikipedia mit Bildern.",
       "url": "https://download.kiwix.org/zim/wikipedia/wikipedia_de_all_maxi_2026-01.zim",
       "size_bytes": 20000000000,
-      "filename": "wikipedia_de.zim"
+      "filename": "wikipedia_de.zim",
+      "filename_prefix": "wikipedia_de_all_maxi_"
     },
     {
       "id": "wikipedia-de-medicine",
@@ -80,7 +125,8 @@
       "description": "Deutschsprachige Wikipedia-Artikel zu Medizin, Gesundheit und Pharmakologie.",
       "url": "https://download.kiwix.org/zim/wikipedia/wikipedia_de_medicine_maxi_2026-01.zim",
       "size_bytes": 1200000000,
-      "filename": "wikipedia_de_medicine.zim"
+      "filename": "wikipedia_de_medicine.zim",
+      "filename_prefix": "wikipedia_de_medicine_maxi_"
     },
     {
       "id": "wikibooks-de",
@@ -88,7 +134,8 @@
       "description": "Freie deutschsprachige Lehrbücher zu Technik, Naturwissenschaften, Handwerk und mehr.",
       "url": "https://download.kiwix.org/zim/wikibooks/wikibooks_de_all_maxi_2026-01.zim",
       "size_bytes": 3500000000,
-      "filename": "wikibooks_de.zim"
+      "filename": "wikibooks_de.zim",
+      "filename_prefix": "wikibooks_de_all_maxi_"
     },
     {
       "id": "wikiversity-de",
@@ -96,7 +143,8 @@
       "description": "Freie deutschsprachige Lernmaterialien und Kurse.",
       "url": "https://download.kiwix.org/zim/wikiversity/wikiversity_de_all_maxi_2026-01.zim",
       "size_bytes": 1500000000,
-      "filename": "wikiversity_de.zim"
+      "filename": "wikiversity_de.zim",
+      "filename_prefix": "wikiversity_de_all_maxi_"
     },
     {
       "id": "gutenberg-de",
@@ -104,7 +152,8 @@
       "description": "Tausende freie deutschsprachige E-Books — Klassiker, Sachbücher und Nachschlagewerke.",
       "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_de_all_2026-01.zim",
       "size_bytes": 6000000000,
-      "filename": "gutenberg_de.zim"
+      "filename": "gutenberg_de.zim",
+      "filename_prefix": "gutenberg_de_all_"
     },
     {
       "id": "ifixit-de",
@@ -112,7 +161,8 @@
       "description": "Schritt-für-Schritt Reparaturanleitungen für Elektronik, Geräte und Werkzeuge.",
       "url": "https://download.kiwix.org/zim/ifixit/ifixit_de_all_2026-03.zim",
       "size_bytes": 3000000000,
-      "filename": "ifixit_de.zim"
+      "filename": "ifixit_de.zim",
+      "filename_prefix": "ifixit_de_all_"
     }
   ]
 }
