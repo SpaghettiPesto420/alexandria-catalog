@@ -3,13 +3,22 @@
   "pmtiles": [],
   "zims": [
     {
+      "id": "wikipedia-en-maxi",
+      "name": "Wikipedia — Complete with Images (EN)",
+      "description": "Complete English Wikipedia with images — every article. Large download (~97 GB).",
+      "url": "https://download.kiwix.org/zim/wikipedia/wikipedia_en_all_maxi_2026-01.zim",
+      "size_bytes": 97000000000,
+      "filename": "wikipedia_en_maxi.zim",
+      "filename_prefix": "wikipedia_en_all_maxi_"
+    },
+    {
       "id": "wikipedia-en",
-      "name": "Wikipedia — Complete (EN, no images)",
-      "description": "Complete English Wikipedia without images — every article.",
+      "name": "Wikipedia — Complete, No Images (EN)",
+      "description": "Complete English Wikipedia without images — every article. Smaller download (~48 GB).",
       "url": "https://download.kiwix.org/zim/wikipedia/wikipedia_en_all_nopic_2026-03.zim",
       "size_bytes": 48400000000,
-      "filename": "wikipedia_en.zim",
-      "filename_prefix": "wikipedia_en_all_"
+      "filename": "wikipedia_en_nopic.zim",
+      "filename_prefix": "wikipedia_en_all_nopic_"
     },
     {
       "id": "mdwiki-en",
@@ -39,22 +48,346 @@
       "filename_prefix": "wikiversity_en_all_"
     },
     {
+      "id": "gutenberg-en-a",
+      "name": "Project Gutenberg — General Works (EN, LCC A)",
+      "description": "Encyclopedias, general reference works and collected knowledge.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-a_2026-03.zim",
+      "size_bytes": 9100000000,
+      "filename": "gutenberg_en_a.zim",
+      "filename_prefix": "gutenberg_en_lcc-a_"
+    },
+    {
+      "id": "gutenberg-en-b",
+      "name": "Project Gutenberg — Philosophy & Religion (EN, LCC B)",
+      "description": "Philosophy, psychology, ethics and religion.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-b_2026-03.zim",
+      "size_bytes": 5900000000,
+      "filename": "gutenberg_en_b.zim",
+      "filename_prefix": "gutenberg_en_lcc-b_"
+    },
+    {
+      "id": "gutenberg-en-c",
+      "name": "Project Gutenberg — Auxiliary Sciences of History (EN, LCC C)",
+      "description": "Archaeology, genealogy, heraldry and related historical sciences.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-c_2025-12.zim",
+      "size_bytes": 1200000000,
+      "filename": "gutenberg_en_c.zim",
+      "filename_prefix": "gutenberg_en_lcc-c_"
+    },
+    {
+      "id": "gutenberg-en-d",
+      "name": "Project Gutenberg — World History (EN, LCC D)",
+      "description": "General and old world history — Europe, Asia, Africa.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-d_2025-12.zim",
+      "size_bytes": 37000000000,
+      "filename": "gutenberg_en_d.zim",
+      "filename_prefix": "gutenberg_en_lcc-d_"
+    },
+    {
+      "id": "gutenberg-en-e",
+      "name": "Project Gutenberg — American History (EN, LCC E)",
+      "description": "History of the United States.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-e_2026-03.zim",
+      "size_bytes": 9500000000,
+      "filename": "gutenberg_en_e.zim",
+      "filename_prefix": "gutenberg_en_lcc-e_"
+    },
+    {
+      "id": "gutenberg-en-f",
+      "name": "Project Gutenberg — Local History Americas (EN, LCC F)",
+      "description": "Local history of the Americas — US states, Canada, Latin America.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-f_2026-03.zim",
+      "size_bytes": 9200000000,
+      "filename": "gutenberg_en_f.zim",
+      "filename_prefix": "gutenberg_en_lcc-f_"
+    },
+    {
+      "id": "gutenberg-en-g",
+      "name": "Project Gutenberg — Geography & Travel (EN, LCC G)",
+      "description": "Geography, anthropology, exploration and travel writing.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-g_2026-03.zim",
+      "size_bytes": 7500000000,
+      "filename": "gutenberg_en_g.zim",
+      "filename_prefix": "gutenberg_en_lcc-g_"
+    },
+    {
+      "id": "gutenberg-en-h",
+      "name": "Project Gutenberg — Social Sciences (EN, LCC H)",
+      "description": "Economics, sociology, commerce and social sciences.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-h_2026-03.zim",
+      "size_bytes": 4200000000,
+      "filename": "gutenberg_en_h.zim",
+      "filename_prefix": "gutenberg_en_lcc-h_"
+    },
+    {
+      "id": "gutenberg-en-j",
+      "name": "Project Gutenberg — Political Science (EN, LCC J)",
+      "description": "Political science, government documents and political theory.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-j_2026-03.zim",
+      "size_bytes": 435000000,
+      "filename": "gutenberg_en_j.zim",
+      "filename_prefix": "gutenberg_en_lcc-j_"
+    },
+    {
+      "id": "gutenberg-en-k",
+      "name": "Project Gutenberg — Law (EN, LCC K)",
+      "description": "Law, legislation and legal history.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-k_2026-03.zim",
+      "size_bytes": 235000000,
+      "filename": "gutenberg_en_k.zim",
+      "filename_prefix": "gutenberg_en_lcc-k_"
+    },
+    {
+      "id": "gutenberg-en-l",
+      "name": "Project Gutenberg — Education (EN, LCC L)",
+      "description": "Education, teaching methods and educational institutions.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-l_2026-03.zim",
+      "size_bytes": 600000000,
+      "filename": "gutenberg_en_l.zim",
+      "filename_prefix": "gutenberg_en_lcc-l_"
+    },
+    {
+      "id": "gutenberg-en-m",
+      "name": "Project Gutenberg — Music (EN, LCC M)",
+      "description": "Music scores, theory and music history.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-m_2026-03.zim",
+      "size_bytes": 3700000000,
+      "filename": "gutenberg_en_m.zim",
+      "filename_prefix": "gutenberg_en_lcc-m_"
+    },
+    {
+      "id": "gutenberg-en-n",
+      "name": "Project Gutenberg — Fine Arts (EN, LCC N)",
+      "description": "Visual arts, architecture, painting, sculpture and design.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-n_2026-03.zim",
+      "size_bytes": 21000000000,
+      "filename": "gutenberg_en_n.zim",
+      "filename_prefix": "gutenberg_en_lcc-n_"
+    },
+    {
+      "id": "gutenberg-en-pa",
+      "name": "Project Gutenberg — Classical Languages (EN, LCC PA)",
+      "description": "Greek and Latin literature — Homer, Virgil, Cicero, Plato and the ancient classics.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pa_2026-03.zim",
+      "size_bytes": 498000000,
+      "filename": "gutenberg_en_pa.zim",
+      "filename_prefix": "gutenberg_en_lcc-pa_"
+    },
+    {
+      "id": "gutenberg-en-pb",
+      "name": "Project Gutenberg — Modern Languages (EN, LCC PB)",
+      "description": "Celtic and modern language texts.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pb_2026-03.zim",
+      "size_bytes": 59000000,
+      "filename": "gutenberg_en_pb.zim",
+      "filename_prefix": "gutenberg_en_lcc-pb_"
+    },
+    {
+      "id": "gutenberg-en-pc",
+      "name": "Project Gutenberg — Romance Languages (EN, LCC PC)",
+      "description": "Romance language literature — Italian, French, Spanish, Portuguese texts.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pc_2026-03.zim",
+      "size_bytes": 172000000,
+      "filename": "gutenberg_en_pc.zim",
+      "filename_prefix": "gutenberg_en_lcc-pc_"
+    },
+    {
+      "id": "gutenberg-en-pd",
+      "name": "Project Gutenberg — Germanic Languages (EN, LCC PD)",
+      "description": "Germanic language texts — Old English, Old Norse, Dutch and Scandinavian.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pd_2026-03.zim",
+      "size_bytes": 14000000,
+      "filename": "gutenberg_en_pd.zim",
+      "filename_prefix": "gutenberg_en_lcc-pd_"
+    },
+    {
+      "id": "gutenberg-en-pe",
+      "name": "Project Gutenberg — English Language (EN, LCC PE)",
+      "description": "English grammar, dictionaries, usage and the history of the English language.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pe_2026-03.zim",
+      "size_bytes": 758000000,
+      "filename": "gutenberg_en_pe.zim",
+      "filename_prefix": "gutenberg_en_lcc-pe_"
+    },
+    {
+      "id": "gutenberg-en-pf",
+      "name": "Project Gutenberg — West Germanic Languages (EN, LCC PF)",
+      "description": "West Germanic language texts — Dutch, Flemish, Frisian.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pf_2026-03.zim",
+      "size_bytes": 13000000,
+      "filename": "gutenberg_en_pf.zim",
+      "filename_prefix": "gutenberg_en_lcc-pf_"
+    },
+    {
+      "id": "gutenberg-en-pg",
+      "name": "Project Gutenberg — Slavic Languages & Literature (EN, LCC PG)",
+      "description": "Slavic language literature — Russian, Polish, Czech, Ukrainian classics.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pg_2026-03.zim",
+      "size_bytes": 261000000,
+      "filename": "gutenberg_en_pg.zim",
+      "filename_prefix": "gutenberg_en_lcc-pg_"
+    },
+    {
+      "id": "gutenberg-en-ph",
+      "name": "Project Gutenberg — Uralic & Basque Languages (EN, LCC PH)",
+      "description": "Finnish, Hungarian, Estonian and Basque language texts.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-ph_2026-03.zim",
+      "size_bytes": 46000000,
+      "filename": "gutenberg_en_ph.zim",
+      "filename_prefix": "gutenberg_en_lcc-ph_"
+    },
+    {
+      "id": "gutenberg-en-pj",
+      "name": "Project Gutenberg — Oriental Languages & Literature (EN, LCC PJ)",
+      "description": "Oriental language texts — Arabic, Hebrew, Persian and related literatures.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pj_2026-03.zim",
+      "size_bytes": 253000000,
+      "filename": "gutenberg_en_pj.zim",
+      "filename_prefix": "gutenberg_en_lcc-pj_"
+    },
+    {
+      "id": "gutenberg-en-pk",
+      "name": "Project Gutenberg — Indo-Iranian Languages (EN, LCC PK)",
+      "description": "Sanskrit, Pali, Hindi, Persian and other Indo-Iranian language texts.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pk_2026-03.zim",
+      "size_bytes": 80000000,
+      "filename": "gutenberg_en_pk.zim",
+      "filename_prefix": "gutenberg_en_lcc-pk_"
+    },
+    {
+      "id": "gutenberg-en-pl",
+      "name": "Project Gutenberg — East Asian Languages (EN, LCC PL)",
+      "description": "Chinese, Japanese, Korean and other East Asian language texts.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pl_2026-03.zim",
+      "size_bytes": 102000000,
+      "filename": "gutenberg_en_pl.zim",
+      "filename_prefix": "gutenberg_en_lcc-pl_"
+    },
+    {
+      "id": "gutenberg-en-pm",
+      "name": "Project Gutenberg — Indigenous & African Languages (EN, LCC PM)",
+      "description": "Indigenous American, African and other language texts.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pm_2026-03.zim",
+      "size_bytes": 45000000,
+      "filename": "gutenberg_en_pm.zim",
+      "filename_prefix": "gutenberg_en_lcc-pm_"
+    },
+    {
+      "id": "gutenberg-en-pn",
+      "name": "Project Gutenberg — Literary Theory & Drama (EN, LCC PN)",
+      "description": "Literary criticism, theory, journalism, drama and performing arts.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pn_2026-03.zim",
+      "size_bytes": 3000000000,
+      "filename": "gutenberg_en_pn.zim",
+      "filename_prefix": "gutenberg_en_lcc-pn_"
+    },
+    {
+      "id": "gutenberg-en-pq",
+      "name": "Project Gutenberg — Romance Literature (EN, LCC PQ)",
+      "description": "Italian, French, Spanish and Portuguese literature — Dante, Cervantes, Molière and more.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pq_2026-03.zim",
+      "size_bytes": 3800000000,
+      "filename": "gutenberg_en_pq.zim",
+      "filename_prefix": "gutenberg_en_lcc-pq_"
+    },
+    {
+      "id": "gutenberg-en-pr",
+      "name": "Project Gutenberg — English Literature (EN, LCC PR)",
+      "description": "English literature — Shakespeare, Dickens, Austen, Milton and the British canon.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pr_2026-03.zim",
+      "size_bytes": 15000000000,
+      "filename": "gutenberg_en_pr.zim",
+      "filename_prefix": "gutenberg_en_lcc-pr_"
+    },
+    {
+      "id": "gutenberg-en-ps",
+      "name": "Project Gutenberg — American Literature (EN, LCC PS)",
+      "description": "American literature — Poe, Twain, Whitman, Hemingway and the American canon.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-ps_2026-03.zim",
+      "size_bytes": 15000000000,
+      "filename": "gutenberg_en_ps.zim",
+      "filename_prefix": "gutenberg_en_lcc-ps_"
+    },
+    {
+      "id": "gutenberg-en-pt",
+      "name": "Project Gutenberg — German & Nordic Literature (EN, LCC PT)",
+      "description": "German, Dutch and Scandinavian literature — Goethe, Schiller, Ibsen and more.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pt_2026-03.zim",
+      "size_bytes": 724000000,
+      "filename": "gutenberg_en_pt.zim",
+      "filename_prefix": "gutenberg_en_lcc-pt_"
+    },
+    {
+      "id": "gutenberg-en-pz",
+      "name": "Project Gutenberg — English Fiction (EN, LCC PZ)",
+      "description": "Fiction in English — thousands of novels and stories for all ages.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-pz_2026-03.zim",
+      "size_bytes": 18000000000,
+      "filename": "gutenberg_en_pz.zim",
+      "filename_prefix": "gutenberg_en_lcc-pz_"
+    },
+    {
       "id": "gutenberg-en-q",
-      "name": "Project Gutenberg — Science & Technology (EN)",
-      "description": "Classic books and references in science, technology and natural history (LCC Q).",
+      "name": "Project Gutenberg — Science & Natural History (EN, LCC Q)",
+      "description": "Classic books and references in science, mathematics and natural history.",
       "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-q_2026-03.zim",
-      "size_bytes": 16500000000,
+      "size_bytes": 17000000000,
       "filename": "gutenberg_en_q.zim",
       "filename_prefix": "gutenberg_en_lcc-q_"
     },
     {
+      "id": "gutenberg-en-r",
+      "name": "Project Gutenberg — Medicine (EN, LCC R)",
+      "description": "Medical texts, anatomy, public health and historical medicine.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-r_2026-03.zim",
+      "size_bytes": 1900000000,
+      "filename": "gutenberg_en_r.zim",
+      "filename_prefix": "gutenberg_en_lcc-r_"
+    },
+    {
+      "id": "gutenberg-en-s",
+      "name": "Project Gutenberg — Agriculture (EN, LCC S)",
+      "description": "Agriculture, farming, forestry, animal husbandry and food production.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-s_2026-03.zim",
+      "size_bytes": 4200000000,
+      "filename": "gutenberg_en_s.zim",
+      "filename_prefix": "gutenberg_en_lcc-s_"
+    },
+    {
       "id": "gutenberg-en-t",
-      "name": "Project Gutenberg — Technology & Engineering (EN)",
-      "description": "Classic books and references in technology, engineering and applied sciences (LCC T).",
+      "name": "Project Gutenberg — Technology & Engineering (EN, LCC T)",
+      "description": "Classic books and references in technology, engineering and applied sciences.",
       "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-t_2026-03.zim",
-      "size_bytes": 12300000000,
+      "size_bytes": 12000000000,
       "filename": "gutenberg_en_t.zim",
       "filename_prefix": "gutenberg_en_lcc-t_"
+    },
+    {
+      "id": "gutenberg-en-u",
+      "name": "Project Gutenberg — Military Science (EN, LCC U)",
+      "description": "Military science, strategy, tactics and military history.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-u_2026-03.zim",
+      "size_bytes": 1200000000,
+      "filename": "gutenberg_en_u.zim",
+      "filename_prefix": "gutenberg_en_lcc-u_"
+    },
+    {
+      "id": "gutenberg-en-v",
+      "name": "Project Gutenberg — Naval Science (EN, LCC V)",
+      "description": "Naval science, seamanship and maritime history.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-v_2026-03.zim",
+      "size_bytes": 1300000000,
+      "filename": "gutenberg_en_v.zim",
+      "filename_prefix": "gutenberg_en_lcc-v_"
+    },
+    {
+      "id": "gutenberg-en-z",
+      "name": "Project Gutenberg — Bibliography & Library Science (EN, LCC Z)",
+      "description": "Bibliography, library science, information science and book history.",
+      "url": "https://download.kiwix.org/zim/gutenberg/gutenberg_en_lcc-z_2026-03.zim",
+      "size_bytes": 2500000000,
+      "filename": "gutenberg_en_z.zim",
+      "filename_prefix": "gutenberg_en_lcc-z_"
     },
     {
       "id": "ifixit-en",
